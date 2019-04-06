@@ -1,37 +1,12 @@
-## Welcome to GitHub Pages
+## Carthage specifications
+There are some great frameworks out there, but unfortunately not all of them offer Carthage support. Luckily there is an easy workaround to include raw frameworks in your project. It works by hosting a JSON file that provides a mapping between the versions and the matching urls of the framework. After that, all you have to do is to refer to that JSON url in your Cartfile.
 
-You can use the [editor on GitHub](https://github.com/tuantmdev/Specs/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Supported Frameworks
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+#### Crashlytics
+Powerful, yet lightweight crash reporting solution (requires the Fabric framework).
+Website: https://fabric.io/kits/ios/crashlytics
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/tuantmdev/Specs/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+##### Add to Cartfile
+`binary "https://tuantmdev.github.io/Specs/Carthage/iOS/Crashlytics.json"`
+`binary "https://tuantmdev.github.io/Specs/Carthage/iOS/Fabric.json"`
