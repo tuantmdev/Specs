@@ -8,5 +8,8 @@ Powerful, yet lightweight crash reporting solution (requires the Fabric framewor
 Website: https://fabric.io/kits/ios/crashlytics
 
 ##### Add to Cartfile
-`binary "https://tuantmdev.github.io/Specs/Carthage/iOS/Crashlytics.json"`
-`binary "https://tuantmdev.github.io/Specs/Carthage/iOS/Fabric.json"`
+
+```
+binary "https://tuantmdev.github.io/Specs/Carthage/iOS/Crashlytics.json"
+binary "https://tuantmdev.github.io/Specs/Carthage/iOS/Fabric.json"
+```
